@@ -1,6 +1,6 @@
 # Home Weather Station firmware
 
-Home Weather Station project on Arduino Nano (code for Platformio).
+Home Weather Station project on Arduino Nano (code for [PlatformIO][1]).
 
 All the settings and definitions can be adjusted in `platformio.ini` file.
 
@@ -25,3 +25,5 @@ Below is the schematics of this whole story.
 - 5V DC power adapter
 - Photoresistor: to control the brightness of LCD depending on background light
 - 10 kOhm resistor
+
+[1]: https://docs.platformio.org/en/latest/ide/atom.html
