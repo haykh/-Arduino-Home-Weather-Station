@@ -13,7 +13,7 @@ All the settings and definitions can be adjusted in `platformio.ini` file.
 
 Below is the schematics of this whole story.
 
-![scheme](https://github.com/haykh/-Arduino-Light-Lamp/blob/master/scheme.png)
+![scheme](https://github.com/haykh/-Arduino-Home-Weather-Station/blob/master/scheme.png)
 
 ### Things used:
 - Arduino Nano
