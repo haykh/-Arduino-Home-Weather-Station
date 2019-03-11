@@ -4,6 +4,15 @@ Home Weather Station project on Arduino Nano (code for [PlatformIO][1]).
 
 All the settings and definitions can be adjusted in `platformio.ini` file.
 
+### Usage (can be changed from within the firmware)
+* Double tap: turn LCD ON/OFF;
+* triple tap: enter date/clock adjustment menu;
+* inside adjustment menu:
+  * hold: plus value;
+  * single tap: minus value;
+  * double tap: next (hour->min->month->day->year);
+  * triple tap: save new adjustments (adds time spent on setting the clock).
+
 ### Few things to note
 1. Make sure to adjust the potentiometer on I2C.
 2. The firmware prints days of the week in Russian, for English simply change the `daysOfTheWeek` array (line 24 `date.h`) and remove all the `if`-s in `printDayOfWeek()` function.
